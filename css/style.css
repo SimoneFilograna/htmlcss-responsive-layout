@@ -19,8 +19,8 @@
 }
 
 section{
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .violet{
@@ -41,19 +41,29 @@ section{
 }
 
 .col-sm{
-    height: 700px;
-    border: 1px dotted red ;
+    /* height: 700px; */
 }
+
+.col-first-section{
+    background-color: var(--secondary-color);
+}
+
+.col-border{
+    border-radius: 1.5rem;
+}
+
 
 
 nav{
     background-color: var(--secondary-color-dark);
+    margin-bottom: 1.5rem;
 }
 
 .nav-row{
     display: flex;
     justify-content: space-between;
-    padding: 30px 0;
+    align-items: center;
+    padding: 20px 0;
 }
 
 .row{
@@ -62,12 +72,56 @@ nav{
     gap: 2rem;
 }
 
-.logo{
-    width: 20px;
-    height: 30px;
-    border: 1px solid black;
+.style-menu{
+    color: white;
+    text-decoration: none;
+    font-size: 1.8rem;
 }
 
+.card-sm{
+    padding: 1.8rem 2.5rem;
+}
+
+.card-sm h2{
+    font-size: 2rem;
+    color: var(--secondary-color-dark);
+    font-weight: 800;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.card-sm p{
+    font-size: 1.2rem;
+    line-height: 2rem;
+    font-weight: 500;
+}
+
+
+.btn-container{
+    text-align: center;
+}
+
+.btn{
+    font-size: 1.2rem;
+    border-radius: 1.5rem;
+    border: none;
+    padding: .5rem 4rem;
+}
+
+
+.blue-btn{
+    margin-top: 2.5rem;
+    color: white;
+    background-color: var(--secondary-color-dark);
+}
+
+.first-section-img{
+    width: 100%;
+}
+
+.inside-right-col .card-sm{
+    padding-bottom: 0;
+}
 
 
 
