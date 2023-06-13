@@ -2,6 +2,7 @@
     --primary-color: rgb(151, 146, 228);
     --secondary-color: rgb(181, 221, 255);
     --secondary-color-dark: rgb(0, 132, 253);
+    --space-gap: 2rem;
 }
 
 *{
@@ -40,13 +41,9 @@ section{
 }
 
 .col-sm{
-    height: 500px;
+    height: 700px;
     border: 1px dotted red ;
 }
-
-
-
-
 
 
 nav{
@@ -62,6 +59,7 @@ nav{
 .row{
     display: flex;
     flex-wrap: wrap;
+    gap: 2rem;
 }
 
 .logo{
@@ -80,19 +78,15 @@ nav{
     }
     
     .col-m{
-        width: calc(100% / 3);
+        width: calc((100% / 3) - var(--space-gap));
     }
 
     .col-1-2-m{
-        width: calc(100% / 2);
+        width: calc((100% / 2) - var(--space-gap));
     }
 
     .col-m-2{
-        width: calc((100% / 3)* 2);
-    }
-
-    .row{
-        justify-content: center;
+        width: calc(((100% / 3)* 2) - var(--space-gap));
     }
 }
 
@@ -104,11 +98,11 @@ nav{
     }
 
     .col-1-2-l{
-        width: calc(100% / 2);
+        width: calc((100% / 2) - var(--space-gap));
     }
 
     .col-l{
-        width: calc(100% / 3);
+        width: calc((100% / 3) - var(--space-gap));
     }
     
 }
