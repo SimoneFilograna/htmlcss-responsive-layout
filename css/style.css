@@ -40,9 +40,6 @@ section{
     width: 100%;
 }
 
-.col-sm{
-    /* height: 700px; */
-}
 
 .col-first-section{
     background-color: var(--secondary-color);
@@ -117,6 +114,7 @@ nav{
 
 .first-section-img{
     width: 100%;
+    object-fit: contain;
 }
 
 .inside-right-col .card-sm{
@@ -170,4 +168,11 @@ nav{
         width: calc((100% / 3) - var(--space-gap));
     }
     
+    .col-sm{
+        display: flex;
+    }
+
+    .inside-right-col, .inside-left-col{
+        flex-basis: 50%;
+    }
 }
