@@ -29,7 +29,6 @@ section{
 .container-sm{
     padding-left: 40px;
     padding-right: 40px;
-    border: 1px solid black;
     width: 100%;
     margin: 0 auto;
 }
@@ -185,7 +184,8 @@ nav{
 .title-violet~p{
     font-size: 1rem;
     line-height: 1.5rem;
-    text-align: center;
+    padding-bottom: 2rem;
+    
 }
 
 .violet-card{
@@ -285,6 +285,7 @@ nav{
     background-color: white;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    font-weight: 500;
 }
 
 
@@ -312,12 +313,15 @@ footer{
     .container-med{
         padding-left: 40px;
         padding-right: 40px;
-        border: 1px solid black;
         width: 100%;
         max-width: 750px;
         margin: 0 auto;
     }
-    
+
+    .card-med{
+        padding: 0rem 0rem;
+    }
+
     .col-m{
         width: calc((100% / 3) - var(--space-gap));
     }
@@ -329,6 +333,37 @@ footer{
     .col-m-2{
         width: calc(((100% / 3)* 2) - var(--space-gap));
     }
+
+    .violet-card-med{
+        display: flex;
+        text-align: left;
+        gap: 1rem;  
+        align-items: center; 
+        padding: 1rem 1rem;    
+    }
+
+    .testimonial-img-med{
+        width: 200px;
+        height: 200px;
+    }
+
+    .row-nowrap{
+        padding-top: 3rem;
+        flex-wrap: nowrap;
+    }
+
+    .title-violet-med{
+        font-size: 5rem;
+    }
+    
+    .row-nowrap p{
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+    }
+
+    
+
+    
 }
 
 
@@ -336,7 +371,6 @@ footer{
     .container-large{
         padding-left: 40px;
         padding-right: 40px;
-        border: 1px solid black;
         width: 100%;
         max-width: 980px;
         margin: 0 auto;
