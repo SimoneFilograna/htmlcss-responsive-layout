@@ -84,7 +84,6 @@ nav{
 .card-sm h2{
     font-size: 2rem;
     font-weight: 800;   
-    text-align: center;
 }
 
 .first-section-title{
@@ -181,8 +180,6 @@ nav{
 .title-violet{
     font-size: 1.5rem;
     color: var(--primary-color);
-    text-align: justify;
-    text-align: center;
 }
 
 .title-violet~p{
@@ -210,9 +207,47 @@ nav{
 }
 
 .b-padding-card{
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
 }
 
+.center-text{
+    text-align: center;
+}
+
+.diff-white-card{
+    background-color: white;
+    border-radius: 1.5rem;
+}
+
+.diff-white-card h2, .diff-white-card p {
+    padding-bottom: 2rem;
+}
+
+.diff-white-card h2{
+    color: var(--primary-color);
+}
+
+.btn-violet{
+    background-color: var(--primary-color);
+    color: white;
+    padding-top: .8rem;
+    padding-bottom: .8rem;
+}
+
+.absolute-img{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 2rem;
+}
+
+.icon-absolute{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 6rem;
+    color: var(--primary-color);
+}
 
 
 
