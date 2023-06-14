@@ -406,3 +406,13 @@ footer{
     .big-text-size{
         font-size: 2.5rem;
     }
+
+    .planning-img-l{
+        height: 200px;
+        object-fit: contain;
+    }
+
+    .row-align-end{
+        align-items: flex-end;
+    }
+}
