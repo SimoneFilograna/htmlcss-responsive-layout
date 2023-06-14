@@ -118,6 +118,7 @@ nav{
 
 .first-section-img{
     width: 100%;
+    height: 300px;
     object-fit: contain;
 }
 
@@ -324,9 +325,7 @@ footer{
         margin: 0 auto;
     }
 
-    .card-med{
-        padding: 0rem 0rem;
-    }
+    
 
     .col-m{
         width: calc((100% / 3) - var(--space-gap));
@@ -414,5 +413,9 @@ footer{
 
     .row-align-end{
         align-items: flex-end;
+    }
+
+    .inside-right-col-l{
+        margin-bottom: -4.5rem;
     }
 }
