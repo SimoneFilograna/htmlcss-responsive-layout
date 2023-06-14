@@ -309,6 +309,7 @@ footer{
 
 .footer-container p {
     font-size: 1rem;
+    padding-bottom: 2rem;
     line-height: 1rem;
 }
 
