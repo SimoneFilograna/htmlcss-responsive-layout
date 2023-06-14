@@ -367,6 +367,9 @@ footer{
         line-height: 2.5rem;
     }
 
+    .col-min-heigh{
+        min-height: 600px;
+    }
     
 
     
@@ -408,7 +411,7 @@ footer{
     }
 
     .planning-img-l{
-        height: 200px;
+        height: 300px;
         object-fit: contain;
     }
 
